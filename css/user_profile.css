@@ -1,8 +1,8 @@
 body {
-    background-image: url("background.jpg");
+    background-image: url('../img/background.jpg');
 }
 #leftPanel{
-    background-color: rgba(0, 77, 110, 0.52);
+    background-color: rgba(8, 14, 34, 0.98);
     color:#fff;
     text-align: center;
 }

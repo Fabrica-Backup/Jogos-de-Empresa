@@ -12,7 +12,7 @@ body{
 }
 
 .navbar, .dropdown-menu{
-    background: rgba(0, 0, 0, 0.25);
+    background: rgba(8, 14, 34, 0.57);
     border: none;
 }
 
@@ -127,3 +127,17 @@ used to vertically center elements, may need modification if you're not using de
     line-height: 34px;
 }
 
+
+.box-central {
+    display: flex;
+    border: solid;
+    background-color: white;
+    width: 80%;
+    height: 120%;
+    padding: 20px 20px 20px 20px;
+    margin: 100px 120px 60px 200px;
+}
+
+.graficos{
+    margin: 20px 20px 20px 20px;
+}
