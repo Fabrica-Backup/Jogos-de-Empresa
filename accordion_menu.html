@@ -1,120 +1,23 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
-
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <!-- This file has been downloaded from Bootsnipp.com. Enjoy! -->
-    <title>Jogos de Empresa</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-
-    <!-- CSS3 + BOOTSTRAP -->
-    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/tela%20inicial.css" rel="stylesheet">
-    <link href="css/grafics.css" rel="stylesheet">
-    
-
-    <!-- JAVASCRIPT-->
+    <title>Accordion Menu - Bootsnipp.com</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+        body{margin-top:50px;}
+.glyphicon { margin-right:10px; }
+.panel-body { padding:0px; }
+.panel-body table tr td { padding-left: 15px }
+.panel-body .table {margin-bottom: 0px; }
+    </style>
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-    <!-- JS BARRA LATERAL -->
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 </head>
-
-
 <body>
-<!-- MENU BARRA SUPERIOR -->
-<div class="navbar-wrapper">
-    <div class="container-fluid">
-        <nav class="navbar navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <img class="logo-saw" src="img/Saw_film_logo.png" alt="logo-saw">
-                </div>
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li class=" dropdown">
-                            <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Relatórios Element<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li class=" dropdown">
-                                    <a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Visão Geral</a>
-                                </li>
-                                <li><a href="#">Administrativos</a></li>
-                                <li><a href="#">De Produção</a> </li>
-                                <li><a href="#">Financeiros e Economicos</a></li>
-                                <li><a href="#">Decições do Periodo</a></li>
-                            </ul>
-                        </li>
-
-
-                        <li class=" dropdown"><a href="#" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Relatórios do Mercado<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Marker Share</a></li>
-                                <li><a href="#">Ranking</a></li>
-                                <li><a href="#">Balanços Patrimoniais de todas as empresas</a></li>
-                                <li><a href="#">Rentabilidade</a></li>
-                                <li><a href="#">Estrutura de Capital</a></li>
-                                <li><a href="#">Liquidez</a></li>
-                                <li><a href="#">Fator Insolvência</a></li>
-                                <li><a href="#">Relatórios do Mediador</a></li>
-                            </ul>
-                        </li>
-
-
-                        <li class=" dropdown"><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Informações Gerais<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Informações Gerais do Periodo</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <ul class="nav navbar-nav pull-right">
-                        <li class=" dropdown"><a href="#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Logado como ...  <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Trocar Senha</a></li>
-                                <li><a href="user_profile.html" target="_blank">Meu Perfil</a></li>
-                            </ul>
-                        </li>
-                        <li class=""><a href="#">Sair</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </div>
-</div>
-
-<!-- BOX CENTRAL COM GRÁFICOS -->
-    <div class="container-box">
-        <div class="box-lateral">
-            <h3>EMPRESAS</h3>
-            <select>
-                <option value="#">Industrias Stark</option>
-            </select>
-            <br>
-            <br>
-            <h3>Periodos</h3>
-            <select>
-                <option value="#">#0(Realizado)</option>
-                <option value="#">#1(Realizado)</option>
-            </select>
-        </div>
-    
-        <div class="box-central">
-            <div class="black-box">
-                <p>Olá, <strong>Mestre dos Jogos</strong>. 
-                Separamos alguns indicadores referentes à empresa <strong>Industrias Stark</strong> no <strong>período #1</strong> para sua análise. 
-                Você pode navegar entre os períodos e as empresas utilizando o quadro ao lado esquerdo da sua tela.</p>
-            </div>
-            <img src="img/stacked_column_chart.gif" class="graficos">
-        </div>
-    </div>
-    
-<div class="container-lateral">
+<div class="container">
     <div class="row">
         <div class="col-sm-3 col-md-3">
             <div class="panel-group" id="accordion">
@@ -260,10 +163,9 @@
         </div>
     </div>
 </div>
-    
+
 <script type="text/javascript">
+
 </script>
-
-
 </body>
 </html>

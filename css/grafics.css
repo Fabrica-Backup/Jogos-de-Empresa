@@ -1,0 +1,74 @@
+/* CSS Box Graficos */
+.container-box{
+    flex-direction: center;
+    display: flex;
+    margin: auto;
+}
+
+.box-central {
+    display: block;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    width: 80%;
+    height: 120%;
+    padding: 20px 20px 20px 20px;
+    margin: 60px 120px 60px 20px;
+}
+
+.graficos{
+    margin: 20px 20px 20px 20px;
+    width: 900px;
+    height: 600px;
+}
+
+.box-lateral {
+    border: solid 0.1px;
+    border-radius: 8px;
+    padding: 10px 30px 30px 0px;
+    margin: 60px -20px 60px 60px;
+    width: 15%;
+    height: 20%;
+    background-color: lightgray;
+}
+
+h3 {
+    font-family: fantasy;
+    margin-left: 30px;
+}
+
+select {
+    margin-left: 30px;
+}
+
+.black-box {
+    border: solid;
+    border-radius: 15px;
+    background-color: black;
+    width: 900px;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-left: 20px;
+
+}
+
+p {
+    color: white;
+    text-align: justify;
+}
+
+
+/* Barra Lateral */
+.container-lateral{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 70%; 
+}
+body{margin-top:50px;}
+.glyphicon { margin-right:10px; }
+.panel-body { padding:0px; }
+.panel-body table tr td { padding-left: 15px }
+.panel-body .table {margin-bottom: 0px; }
