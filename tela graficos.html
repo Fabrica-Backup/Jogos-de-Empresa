@@ -13,11 +13,12 @@
     <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/tela%20inicial.css" rel="stylesheet">
     <link href="css/grafics.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
     
 
     <!-- JAVASCRIPT-->
-    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src=jquery/jquery-1.11.1.js></script>
+    <script src="js/bootstrap.js"></script>
     <!-- JS BARRA LATERAL -->
 </head>
 
@@ -89,30 +90,31 @@
 </div>
 
 <!-- BOX CENTRAL COM GRÁFICOS -->
-    <div class="container-box">
-        <div class="box-lateral">
-            <h3>EMPRESAS</h3>
-            <select>
-                <option value="#">Industrias Stark</option>
-            </select>
-            <br>
-            <br>
-            <h3>Periodos</h3>
-            <select>
-                <option value="#">#0(Realizado)</option>
-                <option value="#">#1(Realizado)</option>
-            </select>
-        </div>
-    
-        <div class="box-central">
-            <div class="black-box">
-                <p>Olá, <strong>Mestre dos Jogos</strong>. 
-                Separamos alguns indicadores referentes à empresa <strong>Industrias Stark</strong> no <strong>período #1</strong> para sua análise. 
-                Você pode navegar entre os períodos e as empresas utilizando o quadro ao lado esquerdo da sua tela.</p>
-            </div>
-            <img src="img/stacked_column_chart.gif" class="graficos">
-        </div>
+<div class="container-box">
+    <div class="box-lateral">
+        <h3><strong>Empresas</strong></h3>
+        <select>
+            <option value="#">Industrias Stark</option>
+        </select>
+        <br>
+            
+        <h3><strong>Periodos</strong></h3>
+        <select>
+            <option value="#">#0(Realizado)</option>
+            <option value="#">#1(Realizado)</option>
+        </select>
     </div>
+
+
+    <div class="box-central">
+        <div class="black-box">
+            <p>Olá, <strong>Mestre dos Jogos</strong>. 
+            Separamos alguns indicadores referentes à empresa <strong>Industrias Stark</strong> no <strong>período #1</strong> para sua análise. 
+            Você pode navegar entre os períodos e as empresas utilizando o quadro ao lado esquerdo da sua tela.</p>
+        </div>
+        <img src="img/stacked_column_chart.gif" class="graficos">
+    </div>
+</div>
     
 <div class="container-lateral">
     <div class="row">
@@ -122,31 +124,45 @@
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><span class="glyphicon glyphicon-folder-close">
-                            </span>Content</a>
+                            </span>DECISÕES ELEMENT</a>
                         </h4>
                     </div>
                     <div id="collapseOne" class="panel-collapse collapse in">
-                        <div class="panel-body">
+                        <div class="panel-body2">
                             <table class="table">
                                 <tr>
                                     <td>
-                                        <span class="glyphicon glyphicon-pencil text-primary"></span><a href="http://www.jquery2dotnet.com">Articles</a>
+                                        <span class="glyphicon glyphicon-pencil text-primary"></span><a href="#">Marketing</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <span class="glyphicon glyphicon-flash text-success"></span><a href="http://www.jquery2dotnet.com">News</a>
+                                        <span class="glyphicon glyphicon-flash text-success"></span><a href="#">Fabricação</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <span class="glyphicon glyphicon-file text-info"></span><a href="http://www.jquery2dotnet.com">Newsletters</a>
+                                        <span class="glyphicon glyphicon-file text-info"></span><a href="#">Recursos Humanos</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <span class="glyphicon glyphicon-comment text-success"></span><a href="http://www.jquery2dotnet.com">Comments</a>
-                                        <span class="badge">42</span>
+                                        <span class="glyphicon glyphicon-shopping-cart"></span><a href="#">Compra e Venda de Imob</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="glyphicon glyphicon-shopping-cart"></span><a href="#">Compra de Insumos</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="glyphicon glyphicon-usd"></span><a href="#">Finanças</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="glyphicon glyphicon-comment text-success"></span><a href="#">Decisões Automáticas</a>
                                     </td>
                                 </tr>
                             </table>
@@ -157,32 +173,72 @@
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class="glyphicon glyphicon-th">
-                            </span>Modules</a>
+                            </span>CONFIG. DO PERÍODO</a>
                         </h4>
                     </div>
                     <div id="collapseTwo" class="panel-collapse collapse">
-                        <div class="panel-body">
+                        <div class="panel-body2">
                             <table class="table">
                                 <tr>
                                     <td>
-                                        <a href="http://www.jquery2dotnet.com">Orders</a> <span class="label label-success">$ 320</span>
+                                        <a href="#">Conf. Gerais do Periodo</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="http://www.jquery2dotnet.com">Invoices</a>
+                                        <a href="#">Multas, Prêmios e outros</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="http://www.jquery2dotnet.com">Shipments</a>
+                                        <a href="#">Condecorações</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="http://www.jquery2dotnet.com">Tex</a>
+                                        <a href="#">Fornecedores</a>
                                     </td>
                                 </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">Bancos</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">Mão de Obra Direta</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">Imobilizados</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">Custos/Despesas</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">Tributos sobre Vendas</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">Fretes</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">Controle de Relatórios</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#">Noticias</a>
+                                    </td>
+                                </tr>    
                             </table>
                         </div>
                     </div>
@@ -191,31 +247,50 @@
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><span class="glyphicon glyphicon-user">
-                            </span>Account</a>
+                            </span>CONFIGURAÇÕES DO JOGO</a>
                         </h4>
                     </div>
                     <div id="collapseThree" class="panel-collapse collapse">
-                        <div class="panel-body">
+                        <div class="panel-body2">
                             <table class="table">
                                 <tr>
                                     <td>
-                                        <a href="http://www.jquery2dotnet.com">Change Password</a>
+                                        <a href="http://www.jquery2dotnet.com">Empresas</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="http://www.jquery2dotnet.com">Notifications</a> <span class="label label-info">5</span>
+                                        <a href="http://www.jquery2dotnet.com">Gerenciamento Periodos</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="http://www.jquery2dotnet.com">Import/Export</a>
+                                        <a href="http://www.jquery2dotnet.com">Usuários</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <span class="glyphicon glyphicon-trash text-danger"></span><a href="http://www.jquery2dotnet.com" class="text-danger">
-                                            Delete Account</a>
+                                        <a href="http://www.jquery2dotnet.com" class="text-danger">Configurações Ranking</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="http://www.jquery2dotnet.com">Arquivos</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="http://www.jquery2dotnet.com">Noticias Portal</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="http://www.jquery2dotnet.com">Agendamento</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="http://www.jquery2dotnet.com">Configurações Gerais</a>
                                     </td>
                                 </tr>
                             </table>
@@ -226,11 +301,11 @@
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour"><span class="glyphicon glyphicon-file">
-                            </span>Reports</a>
+                            </span>STATUS ÚLTIMAS DECISÕES</a>
                         </h4>
                     </div>
                     <div id="collapseFour" class="panel-collapse collapse">
-                        <div class="panel-body">
+                        <div class="panel-body2">
                             <table class="table">
                                 <tr>
                                     <td>
