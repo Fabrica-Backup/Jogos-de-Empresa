@@ -11,8 +11,9 @@ body{
 
 }
 
+/* CSS NAVBAR */ 
 .navbar, .dropdown-menu{
-    background: rgba(8, 14, 34, 0.57);
+    background: rgba(0, 2, 16, 0.87);
     border: none;
 }
 
@@ -64,10 +65,9 @@ body{
 
 
 /* CSS TABLE */
-
 .container-table{
 
-    padding-top: 400px;
+    padding-top: 5px;
     padding-right: 20px;
     padding-left: 20px;
     padding-bottom: 20px;
@@ -125,4 +125,35 @@ used to vertically center elements, may need modification if you're not using de
 
 .panel-table .panel-body .table-bordered > tbody > tr > td{
     line-height: 34px;
+}
+
+
+
+/* BOX ATUALIZAÇÕES*/
+.container-att {
+    
+}
+
+.box-att {
+    border: solid 0.1px;
+    background-color: ghostwhite;
+    height: 500px;
+    width: 1180px;
+    margin: 80px 80px 0px 60px;
+    border-radius: 8px;
+}
+
+.box-att2 {
+    border: solid 0.1px black;
+    background-color: #dedede;
+    margin: 20px 20px 20px 20px;
+    height: 250px;
+    width: auto;
+    border-radius: 5px;
+}
+
+h1 {
+    margin: 20px 0px 20px 20px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
 }

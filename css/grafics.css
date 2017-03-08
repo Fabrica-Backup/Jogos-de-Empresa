@@ -79,3 +79,27 @@ body{margin-top:50px;}
 .panel-body2 { padding:0px; }
 .panel-body2 table tr td { padding-left: 16px }
 .panel-body2 .table {margin-bottom: 0px; }
+a {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 12px;
+    
+}
+
+
+/* Box-Mural */
+.box-direito{
+    padding-top: 60px;
+}
+
+.box-mural {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 12px;
+    border: solid #c3c3c3;
+    background-color: lightgray;
+    width: auto;
+    height: auto;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}

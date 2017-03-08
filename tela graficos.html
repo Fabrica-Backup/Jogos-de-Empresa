@@ -19,6 +19,7 @@
     <!-- JAVASCRIPT-->
     <script src=jquery/jquery-1.11.1.js></script>
     <script src="js/bootstrap.js"></script>
+    <script scr="js/modal.js"></script>
     <!-- JS BARRA LATERAL -->
 </head>
 
@@ -114,6 +115,20 @@
         </div>
         <img src="img/stacked_column_chart.gif" class="graficos">
     </div>
+        
+    
+    <div class="box-direito">
+        <div class="box-mural">
+            <h2>MURAL</h2>
+            <ul>
+                <li>teste1</li>
+                <li>teste2</li>
+                <li>teste3</li>
+                <li>teste4</li>
+                <li>teste5</li> 
+            </ul>
+        </div>
+    </div>
 </div>
     
 <div class="container-lateral">
@@ -124,7 +139,7 @@
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><span class="glyphicon glyphicon-folder-close">
-                            </span>DECISÕES ELEMENT</a>
+                            </span><strong>DECISÕES ELEMENT</strong></a>
                         </h4>
                     </div>
                     <div id="collapseOne" class="panel-collapse collapse in">
@@ -132,7 +147,7 @@
                             <table class="table">
                                 <tr>
                                     <td>
-                                        <span class="glyphicon glyphicon-pencil text-primary"></span><a href="#">Marketing</a>
+                                        <span id="myBtn" class="glyphicon glyphicon-pencil text-primary"></span><a href="#">Marketing</a>
                                     </td>
                                 </tr>
                                 <tr>
@@ -173,7 +188,7 @@
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span class="glyphicon glyphicon-th">
-                            </span>CONFIG. DO PERÍODO</a>
+                            </span><strong>CONFIG. DO PERÍODO</strong></a>
                         </h4>
                     </div>
                     <div id="collapseTwo" class="panel-collapse collapse">
@@ -247,7 +262,7 @@
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree"><span class="glyphicon glyphicon-user">
-                            </span>CONFIGURAÇÕES DO JOGO</a>
+                            </span><strong>CONFIGURAÇÕES DO JOGO</strong></a>
                         </h4>
                     </div>
                     <div id="collapseThree" class="panel-collapse collapse">
@@ -255,42 +270,42 @@
                             <table class="table">
                                 <tr>
                                     <td>
-                                        <a href="http://www.jquery2dotnet.com">Empresas</a>
+                                        <a href="#">Empresas</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="http://www.jquery2dotnet.com">Gerenciamento Periodos</a>
+                                        <a href="#">Gerenciamento Periodos</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="http://www.jquery2dotnet.com">Usuários</a>
+                                        <a href="#">Usuários</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="http://www.jquery2dotnet.com" class="text-danger">Configurações Ranking</a>
+                                        <a href="#" class="text-danger">Configurações Ranking</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="http://www.jquery2dotnet.com">Arquivos</a>
+                                        <a href="#">Arquivos</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="http://www.jquery2dotnet.com">Noticias Portal</a>
+                                        <a href="#">Noticias Portal</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="http://www.jquery2dotnet.com">Agendamento</a>
+                                        <a href="#">Agendamento</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <a href="http://www.jquery2dotnet.com">Configurações Gerais</a>
+                                        <a href="#">Configurações Gerais</a>
                                     </td>
                                 </tr>
                             </table>
@@ -301,7 +316,7 @@
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour"><span class="glyphicon glyphicon-file">
-                            </span>STATUS ÚLTIMAS DECISÕES</a>
+                            </span><strong>STATUS ÚLTIMAS DECISÕES</strong></a>
                         </h4>
                     </div>
                     <div id="collapseFour" class="panel-collapse collapse">
@@ -309,22 +324,22 @@
                             <table class="table">
                                 <tr>
                                     <td>
-                                        <span class="glyphicon glyphicon-usd"></span><a href="http://www.jquery2dotnet.com">Sales</a>
+                                        <span class="glyphicon glyphicon-usd"></span><a href="#">Sales</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <span class="glyphicon glyphicon-user"></span><a href="http://www.jquery2dotnet.com">Customers</a>
+                                        <span class="glyphicon glyphicon-user"></span><a href="#">Customers</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <span class="glyphicon glyphicon-tasks"></span><a href="http://www.jquery2dotnet.com">Products</a>
+                                        <span class="glyphicon glyphicon-tasks"></span><a href="#">Products</a>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <span class="glyphicon glyphicon-shopping-cart"></span><a href="http://www.jquery2dotnet.com">Shopping Cart</a>
+                                        <span class="glyphicon glyphicon-shopping-cart"></span><a href="#">Shopping Cart</a>
                                     </td>
                                 </tr>
                             </table>
